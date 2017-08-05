@@ -1,0 +1,33 @@
+﻿生成启动时间为 2017/3/9 16:14:21。
+     1>项目“E:\OpenCv_lib\BlockSnake\extract\extract.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (CrossCorrelation.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BlockSnake.cpp HyoidFind.cpp Snake.cpp
+         Snake.cpp
+     1>e:\opencv_lib\blocksnake\extract\snake.h(21): warning C4005: “PI”: 宏重定义
+                 e:\opencv_lib\blocksnake\extract\hyoidfind.h(23) : 参见“PI”的前一个定义
+     1>e:\opencv_lib\blocksnake\extract\snake.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\opencv_lib\blocksnake\extract\snake.cpp(158): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_lib\blocksnake\extract\snake.cpp(174): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_lib\blocksnake\extract\snake.cpp(178): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+         HyoidFind.cpp
+     1>e:\opencv_lib\blocksnake\extract\hyoidfind.cpp(33): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_lib\blocksnake\extract\hyoidfind.cpp(144): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_lib\blocksnake\extract\hyoidfind.cpp(170): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\opencv_lib\blocksnake\extract\hyoidfind.cpp(171): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         BlockSnake.cpp
+     1>e:\opencv_lib\blocksnake\extract\snake.h(21): warning C4005: “PI”: 宏重定义
+                 e:\opencv_lib\blocksnake\extract\hyoidfind.h(23) : 参见“PI”的前一个定义
+     1>e:\opencv_lib\blocksnake\extract\blocksnake.cpp(20): warning C4305: “参数”: 从“int”到“bool”截断
+     1>e:\opencv_lib\blocksnake\extract\blocksnake.cpp(21): warning C4305: “参数”: 从“int”到“bool”截断
+         正在生成代码...
+       Link:
+         D:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\OpenCv_lib\BlockSnake\Debug\BlockSnake.exe" /INCREMENTAL /NOLOGO opencv_calib3d2411d.lib opencv_contrib2411d.lib opencv_core2411d.lib opencv_features2d2411d.lib opencv_flann2411d.lib opencv_gpu2411d.lib opencv_highgui2411d.lib opencv_imgproc2411d.lib opencv_legacy2411d.lib opencv_ml2411d.lib opencv_nonfree2411d.lib opencv_objdetect2411d.lib opencv_ocl2411d.lib opencv_photo2411d.lib opencv_stitching2411d.lib opencv_superres2411d.lib opencv_ts2411d.lib opencv_video2411d.lib opencv_videostab2411d.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\OpenCv_lib\BlockSnake\Debug\BlockSnake.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\OpenCv_lib\BlockSnake\Debug\BlockSnake.lib" /MACHINE:X86 Debug\BlockSnake.obj
+         Debug\HyoidFind.obj
+         Debug\Snake.obj
+         extract.vcxproj -> E:\OpenCv_lib\BlockSnake\Debug\BlockSnake.exe
+     1>已完成生成项目“E:\OpenCv_lib\BlockSnake\extract\extract.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.87
